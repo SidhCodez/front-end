@@ -1,0 +1,74 @@
+/* ---------- RESET ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    line-height: 1.6
+}
+
+.hero {
+    background: linear-gradient(135deg, #4459f6, #7b5ce0);
+    text-align: center;
+    padding: 60px 80px;
+}
+
+.profile {
+    height: auto;
+    width: 130px;
+    border-radius: 60px;
+    border: 5px solid black;
+}
+
+.job-title {
+    font-size: large;
+}
+
+.highlight {
+    color: rgb(235, 223, 127);
+    font-style: italic;
+}
+
+.about {
+    text-align: center;
+    padding: 70px;
+    background-color: azure;
+}
+
+.about-title {
+    color: #7b5ce0;
+}
+
+.skills {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 30px auto 0;
+}
+
+.skill-card {
+    background-color: #a8b2ff;
+    padding: 25px 20px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.skill-card:hover {
+    background-color: #7b5ce0;
+}
+.footer{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    
+}
