@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="card" id="reg-form">
+        <h1>Student Registration form </h1>
+
+        <label>Full Name
+            <input type="text" placeholder="john-Doe" required>
+        </label>
+
+        <label>Email
+            <input type="email" placeholder="john@example.com" required>
+        </label>
+
+        <label>phone
+            <input type="tel" placeholder="10-digit phone number" required>
+        </label>
+
+        <label>Date Of birth
+            <input type="date" required>
+        </label>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <label> <input type="radio" required>male</label>
+            <label  class="female-radio"> <input type="radio" required>Female</label>
+            <label> <input type="radio" required>other</label>
+        </fieldset>
+
+        <label>Course
+            <select>
+                <option>--Select--</option>
+                <option>BCA</option>
+                <option>BCOM</option>
+                <option>BBA</option>
+                <option>BA</option>
+            </select>
+        </label>
+
+        <label>password
+            <input type="password" placeholder="minimun 6-10-digit" required>
+        </label>
+
+        <div class="button">
+            <button class="reg-btn">Submmit</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
